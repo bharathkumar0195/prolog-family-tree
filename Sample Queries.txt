@@ -1,0 +1,19 @@
+Sample Queries 
+Children Query
+?- child(X, john).
+
+Sibling Query
+?- sibling(paul, linda).
+
+Grandparent Query
+?- grandparent(john, mike).
+
+ Cousin Query
+?- cousin(mike, tom).
+
+Descendant Query (Recursive)
+?- descendant(mike, john).
+
+ Find all descendants
+?- descendant(X, john).
+
